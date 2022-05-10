@@ -1,0 +1,23 @@
+{
+  "name": "wb_landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarakulinAleksey/wb_landing.git"
+  },
+  "keywords": [],
+  "author": "Karakulin Aleksey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KarakulinAleksey/wb_landing/issues"
+  },
+  "homepage": "https://github.com/KarakulinAleksey/wb_landing#readme",
+  "devDependencies": {
+    "webpack": "^5.72.0"
+  }
+}
