@@ -1,0 +1,9 @@
+.page{
+    width:auto;
+    max-width: 1600px;
+}
+.page:after{
+    content: '';
+    display: table;
+    clear: both;
+}
