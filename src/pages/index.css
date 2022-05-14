@@ -1,5 +1,14 @@
 @import url('../vendor/normalize.css');
+@import url('../vendor/fonts/fonts.css');
 
 @import url('../blocks/page/page.css');
-@import url('../blocks/one-third/one-third.css');
-@import url('../blocks/two-thirds/two-thirds.css');
+@import url('../blocks/page/page__font/page__font.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__logo/header__logo.css');
+@import url('../blocks/header/__menu/header__menu.css');
+@import url('../blocks/header/__menu/__menu_item/header__menu_item.css');
+@import url('../blocks/text-block/text-block.css');
+@import url('../blocks/text-block/__item/text-block__item.css');
+@import url('../blocks/content-block/content-block.css');
+@import url('../blocks/view-block/view-block.css');
+@import url('../blocks/view-block/__lamp/view-block__lamp.css');

@@ -1,0 +1,8 @@
+.header__menu {
+  display: flex;
+  width: auto;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}

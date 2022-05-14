@@ -1,0 +1,12 @@
+.header__menu_item{
+  font-size: 21px;
+  line-height: 133.84%;
+  letter-spacing: 0.055em;
+  color: #3D9090;
+
+  margin-right: 56px;
+}
+
+.header__menu_item:last-of-type{
+  margin-right: 0;
+}
