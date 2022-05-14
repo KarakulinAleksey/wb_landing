@@ -12,3 +12,11 @@
 @import url('../blocks/content-block/content-block.css');
 @import url('../blocks/view-block/view-block.css');
 @import url('../blocks/view-block/__lamp/view-block__lamp.css');
+@import url('../blocks/content-block/content-block.css');
+@import url('../blocks/content-block/__circle/content-block__circle.css');
+@import url('../blocks/content-block/__text-block/contetn-block__text-block.css');
+@import url('../blocks/content-block/__text-block/_item/content-block__text-block_item.css');
+@import url('../blocks/content-block/__text/content-block__text.css');
+@import url('../blocks/content-block/__image/content-block__image.css');
+@import url('../blocks/content-block/__control-panel/content-block__control-panel.css');
+@import url('../blocks/text-bold/text-bold.css');

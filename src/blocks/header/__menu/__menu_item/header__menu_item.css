@@ -4,7 +4,8 @@
   letter-spacing: 0.055em;
   color: #3D9090;
 
-  margin-right: 56px;
+  /* margin-right: 56px; */
+  /* margin-right: 3.5%; */
 }
 
 .header__menu_item:last-of-type{
