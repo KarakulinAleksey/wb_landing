@@ -2,7 +2,7 @@
 @import url('../vendor/fonts/fonts.css');
 
 @import url('../blocks/page/page.css');
-@import url('../blocks/page/page__font/page__font.css');
+/* @import url('../blocks/page/page__font/page__font.css'); */
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__logo/header__logo.css');
 @import url('../blocks/header/__menu/header__menu.css');
@@ -19,4 +19,7 @@
 @import url('../blocks/content-block/__text/content-block__text.css');
 @import url('../blocks/content-block/__image/content-block__image.css');
 @import url('../blocks/content-block/__control-panel/content-block__control-panel.css');
-@import url('../blocks/text-bold/text-bold.css');
+@import url('../blocks/text-light/text-light.css');
+
+
+@import url('../blocks/page/page__font/page__font.css');

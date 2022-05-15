@@ -1,3 +1,7 @@
-.content-block__text{
+.content-block__text {
+  font-size: 16px;
+  line-height: 133.84%;
 
+  margin: 0;
+  margin-left: 5px;
 }

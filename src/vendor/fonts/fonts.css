@@ -7,6 +7,14 @@
        url('./SFUIDisplay-Regular.woff') format('woff');
 }
 
+@font-face {
+  font-family: 'SFCompactDisplay';
+  font-style:  normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url('./SFUIDisplay-Ultralight.woff') format('woff');
+  /* src: url('./SFUIDisplay-Light.woff') format('woff'); */
+}
 
 
 

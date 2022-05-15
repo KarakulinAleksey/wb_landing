@@ -2,7 +2,8 @@
   display: grid;
   /* grid-template-columns: repeat(2, min-content); */
   grid-template-columns: 44% 56%;
-  grid-template-rows: 5% 55% 40%;
+  /* grid-template-rows: 5% 55% 40%; */
+  grid-template-rows: 5% 39% 56%;
   /* grid-template-rows:  repeat(3, min-content) ; */
   box-sizing: border-box;
   /* width: auto; */

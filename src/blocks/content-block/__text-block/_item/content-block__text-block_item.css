@@ -1,3 +1,10 @@
 .content-block__text-block_item{
+  display: flex;
+  margin-bottom: 18px;
+}
+
+.content-block__text-block_item:last-of-type{
+  display: block;
+  margin-bottom: 0;
 
 }

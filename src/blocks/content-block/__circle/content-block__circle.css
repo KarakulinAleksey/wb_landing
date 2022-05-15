@@ -1,3 +1,11 @@
 .content-block__circle{
-
+  /* display: flex; */
+  /* align-items: center; */
+  width: 68%;
+  height: 68%;
+  border-radius: 50%;
+  background-color: #e4d7b9;
+  position: relative;
+  left: -10%;
+  top: 5%;
 }
