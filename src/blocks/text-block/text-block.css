@@ -1,12 +1,12 @@
 .text-block{
-  font-size: 24px;
+  font-size: 32px;
   line-height: 32px;
   letter-spacing: 0.055em;
   color: #000;
 
   grid-row: 2/3;
   grid-column: 1/2;
-  max-width: 667px;
+  max-width: 886px;
   width: auto;
   padding-top: 91px;
   padding-right: 68px;

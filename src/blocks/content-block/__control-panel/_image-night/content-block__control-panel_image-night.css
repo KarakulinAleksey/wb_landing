@@ -1,0 +1,8 @@
+.content-block__control-panel_image-night {
+  width: 50%;
+  height: 50%;
+}
+
+.content-block__control-panel_image-night:hover {
+  opacity: 0.6;
+}

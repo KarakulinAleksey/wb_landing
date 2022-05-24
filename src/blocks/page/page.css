@@ -1,18 +1,19 @@
 .page {
   display: grid;
   /* grid-template-columns: repeat(2, min-content); */
-  grid-template-columns: 44% 56%;
+  grid-template-columns: 43% 57%;
   /* grid-template-rows: 5% 55% 40%; */
-  grid-template-rows: 5% 39% 56%;
+  grid-template-rows: 5% 39% 55%;
   /* grid-template-rows:  repeat(3, min-content) ; */
   box-sizing: border-box;
   /* width: auto; */
-  max-width: 1600px;
+  /* max-width: 1600px; */
   height: 100vh;
+  max-height: 1600px;
   margin-left: auto;
   margin-right: auto;
   background-color: #dbeeee;
-  padding: 20px;
+  /* padding: 20px; */
   aspect-ratio: 4/3;
 }
 /* .page:after {

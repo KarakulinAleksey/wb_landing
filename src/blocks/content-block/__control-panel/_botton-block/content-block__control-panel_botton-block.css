@@ -1,0 +1,7 @@
+.content-block__control-panel_botton-block {
+  display: flex;
+  width: 100%;
+  height: 13%;
+  margin-top: 23%;
+  border-bottom-left-radius: 20%;
+}

@@ -1,0 +1,11 @@
+.content-block__control-panel-shadow{
+  width: 26%;
+  height: 88%;
+  background-image: url(../../../image/navpanel-right.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 6%;
+  left: 97%;
+  z-index: 1;
+}

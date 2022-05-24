@@ -7,19 +7,32 @@
 @import url('../blocks/header/__logo/header__logo.css');
 @import url('../blocks/header/__menu/header__menu.css');
 @import url('../blocks/header/__menu/__menu_item/header__menu_item.css');
+
 @import url('../blocks/text-block/text-block.css');
 @import url('../blocks/text-block/__item/text-block__item.css');
-@import url('../blocks/content-block/content-block.css');
+
 @import url('../blocks/view-block/view-block.css');
 @import url('../blocks/view-block/__lamp/view-block__lamp.css');
+
 @import url('../blocks/content-block/content-block.css');
 @import url('../blocks/content-block/__circle/content-block__circle.css');
 @import url('../blocks/content-block/__text-block/contetn-block__text-block.css');
 @import url('../blocks/content-block/__text-block/_item/content-block__text-block_item.css');
 @import url('../blocks/content-block/__text/content-block__text.css');
 @import url('../blocks/content-block/__image/content-block__image.css');
+@import url('../blocks/content-block/__control-panel-shadow/content-block__control-panel-shadow.css');
 @import url('../blocks/content-block/__control-panel/content-block__control-panel.css');
+@import url('../blocks/content-block/__control-panel/_item/content-block__control-panel_item.css');
+@import url('../blocks/content-block/__control-panel/_item/content-block__control-panel_item-click.css');
+@import url('../blocks/content-block/__control-panel/_item/content-block__control-panel_item-focus.css');
+@import url('../blocks/content-block/__control-panel/_image-item/content-block__control-panel_image-item-1.css');
+@import url('../blocks/content-block/__control-panel/_image-item/content-block__control-panel_image-item-2.css');
+@import url('../blocks/content-block/__control-panel/_image-item/content-block__control-panel_image-item-3.css');
+@import url('../blocks/content-block/__control-panel/_botton-block/content-block__control-panel_botton-block.css');
+@import url('../blocks/content-block/__control-panel/_botton-light/content-block__control-panel_botton-light.css');
+@import url('../blocks/content-block/__control-panel/_botton-night/content-block__control-panel_botton-night.css');
+@import url('../blocks/content-block/__control-panel/_image-light/content-block__control-panel_image-light.css');
+@import url('../blocks/content-block/__control-panel/_image-night/content-block__control-panel_image-night.css');
+
 @import url('../blocks/text-light/text-light.css');
-
-
 @import url('../blocks/page/page__font/page__font.css');
