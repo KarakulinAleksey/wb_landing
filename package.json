@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/KarakulinAleksey/wb_landing/issues"
   },
-  "homepage": "https://github.com/KarakulinAleksey/wb_landing",
+  "homepage": "https://github.com/KarakulinAleksey/wb_landing.git",
   "devDependencies": {
     "@babel/core": "^7.18.0",
     "@babel/preset-env": "^7.18.0",
