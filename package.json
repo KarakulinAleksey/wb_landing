@@ -14,12 +14,12 @@
     "url": "git+https://github.com/KarakulinAleksey/wb_landing.git"
   },
   "keywords": [],
-  "author": "Karakulin Aleksey",
+  "author": "KarakulinAleksey",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/KarakulinAleksey/wb_landing/issues"
   },
-  "homepage": "https://github.com/KarakulinAleksey/wb_landing#readme",
+  "homepage": "https://github.com/KarakulinAleksey/wb_landing",
   "devDependencies": {
     "@babel/core": "^7.18.0",
     "@babel/preset-env": "^7.18.0",
