@@ -1,7 +1,16 @@
 import './index.css';
+import {controlPanelButtonLamp} from '../utils/var.js';
 
-console.log('Hello world!');
-const numbers = [2, 3, 5];
-// Стрелочная функция. Не запнётся ли на ней Internet Explorer?
-const doubledNumbers = numbers.map(number => number * 2);
-console.log(doubledNumbers); // 4, 6, 10
+
+
+
+controlPanelButtonLamp.forEach((item)=>{
+  console.log(item);
+  item.addEventListener('click', function(evt){
+    console.log(evt.target);
+  })
+})
+// console.log(controlPanelButtonLamp);
+
+
+
