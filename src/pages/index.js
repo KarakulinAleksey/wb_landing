@@ -1,6 +1,10 @@
 import './index.css';
-import {controlPanelButtonLamp} from '../utils/var.js';
-
+import {
+  controlPanelButtonLamp,
+  baseUrl,
+  headersContentType
+} from '../utils/var.js';
+import Api from '../components/api.js'
 
 
 
@@ -12,5 +16,17 @@ controlPanelButtonLamp.forEach((item)=>{
 })
 // console.log(controlPanelButtonLamp);
 
+const api = new Api({
+  baseUrl: baseUrl,
+  headers: {
+   'Content-Type': headersContentType,
+  },
+});
 
+const allLamp = api.getAllLamp();
+console.log(allLamp);
 
+allLamp
+  .then((data)=>{
+    console.log(data);
+  })
