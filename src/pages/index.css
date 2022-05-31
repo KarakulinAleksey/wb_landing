@@ -13,6 +13,7 @@
 
 @import url('../blocks/view-block/view-block.css');
 @import url('../blocks/view-block/__lamp/view-block__lamp.css');
+@import url('../blocks/view-block/__background-night/view-block__background-night.css');
 
 @import url('../blocks/content-block/content-block.css');
 @import url('../blocks/content-block/__circle/content-block__circle.css');
