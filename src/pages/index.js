@@ -27,26 +27,32 @@ const getAllLamp = api.getAllLamp();
 getAllLamp
   .then((data)=>{
     console.log('data', data);
-    addElement(data);
+    for (let i=0;i<data.length-1;i++){
+      addElement(data[i]);
+    }
+    // data.forEach((item)=>{
+    //   addElement(item);
+    // })
   })
   .catch((err) => {
     console.log('Error ' + err);
   })
 
-  addElement();
+
 
 function addElement(data){
-  const buttomElement = [];
-  for (let i=0;i<3;i++){
+  // const buttomElement = [];
+  // for (let i=0;i<3;i++){
     const listItem = document.createElement('li');
     listItem.classList.add('content-block__control-panel_item');
     const imageListItem = document.createElement('img');
-    imageListItem.src = data.i.image;
+    imageListItem.src = data.image;
     imageListItem.classList.add('content-block__control-panel_image-light');
     listItem.prepend(imageListItem);
-    buttomElement[i]=listItem;
-  }
-  for (let i=0;i<3;i++){
-    controlPanel.prepend(buttomElement[i]);
-  }
+    // buttomElement[i]=listItem;
+  // }
+  // for (let i=0;i<1;i++){
+    // controlPanel.prepend(buttomElement[i]);
+    controlPanel.prepend(listItem);
+  // }
 }
