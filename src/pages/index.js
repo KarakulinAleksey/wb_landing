@@ -12,6 +12,14 @@ import {
 import Api from '../components/api.js';
 import ControlPanel from '../utils/ControlPanel.js';
 
+const preloader = document.querySelector('#preloader').content;
+const preloaderCopy = [];
+
+controlPanelButtonLamp.forEach((item, i)=>{
+  preloaderCopy[i] = preloader.querySelector('.preloader').cloneNode(true);
+  item.append(preloaderCopy[i]);
+});
+
 const controlPanel = new ControlPanel(viewBlockLamp, controlPanelButtonLamp, contentBlockSpecificationsLamp);
 
 bottonNight.addEventListener('click',()=>{
