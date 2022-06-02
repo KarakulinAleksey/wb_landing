@@ -37,4 +37,7 @@
 
 @import url('../blocks/text-light/text-light.css');
 @import url('../blocks/page/page__font/page__font.css');
+
 @import url('../blocks/preloader/preloader.css');
+@import url('../blocks/preloader/__viewBlock-position/preloader__viewBlock-position.css');
+@import url('../blocks/preloader/__contentBlock-position/preloader__contentBlock-position.css');
