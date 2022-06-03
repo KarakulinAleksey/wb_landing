@@ -5,7 +5,7 @@ export default class ControlPanel {
     viewBlock,
     contentBlock
   ) {
-      (this._controlPanelButtonLamp = controlPanelButtonLamp),
+    (this._controlPanelButtonLamp = controlPanelButtonLamp),
       (this._contentBlockSpecificationsLamp = contentBlockSpecificationsLamp),
       (this._viewBlock = viewBlock),
       (this._contentBlock = contentBlock);
@@ -43,40 +43,48 @@ export default class ControlPanel {
     });
   }
 
-  addImageViewBlock(data) {
-    if (this._viewBlock.querySelector(".preloader")) {
-      this._imageViewBlock = document.createElement("img");
-      this._imageViewBlock.src = data.image;
-      this._imageViewBlock.classList.add("view-block__lamp");
-      this._viewBlock
-        .querySelector(".preloader")
-        .replaceWith(this._imageViewBlock);
+  _createElement(
+    preloader,
+    element,
+    addStyleClass,
+    styleClass,
+    data,
+    parentElement
+  ) {
+
+    if (parentElement.querySelector(preloader)) {
+      this._imageElement = document.createElement(element);
+      this._imageElement.src = data.image;
+      this._imageElement.classList.add(addStyleClass);
+      parentElement.querySelector(preloader).replaceWith(this._imageElement);
     } else {
-      this._imageViewBlock = document.createElement("img");
-      this._imageViewBlock.src = data.image;
-      this._imageViewBlock.classList.add("view-block__lamp");
-      this._viewBlock
-        .querySelector(".view-block__lamp")
-        .replaceWith(this._imageViewBlock);
+      this._imageElement = document.createElement(element);
+      this._imageElement.src = data.image;
+      this._imageElement.classList.add(addStyleClass);
+      parentElement.querySelector(styleClass).replaceWith(this._imageElement);
     }
   }
 
+  addImageViewBlock(data) {
+    this._createElement(
+      ".preloader",
+      "img",
+      "view-block__lamp",
+      ".view-block__lamp",
+      data,
+      this._viewBlock
+    );
+  }
+
   addImageContentBlock(data) {
-    if (this._contentBlock.querySelector(".preloader")) {
-      this._imageContentBlock = document.createElement("img");
-      this._imageContentBlock.src = data.image;
-      this._imageContentBlock.classList.add("content-block__image");
+    this._createElement(
+      ".preloader",
+      "img",
+      "content-block__image",
+      ".content-block__image",
+      data,
       this._contentBlock
-        .querySelector(".preloader")
-        .replaceWith(this._imageContentBlock);
-    } else {
-      this._imageContentBlock = document.createElement("img");
-      this._imageContentBlock.src = data.image;
-      this._imageContentBlock.classList.add("content-block__image");
-      this._contentBlock
-        .querySelector(".content-block__image")
-        .replaceWith(this._imageContentBlock);
-    }
+    );
   }
 
   addElement(data, controlPanelButtonLamp) {

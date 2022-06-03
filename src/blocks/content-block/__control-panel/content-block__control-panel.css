@@ -6,13 +6,13 @@
   margin: 0;
   /* box-sizing: border-box; */
   /* justify-content: space-between; */
-  width: 25%;
-  height: 86%;
+  width: 23%;
+  height: 89%;
   background-image: url('../../../image/navpanel.svg');
   /* background-image: url('../../../image/navpanel-right.svg'); */
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-  top: 8%;
-  left: 75%;
+  top: 7%;
+  left: 77%;
 }

@@ -1,9 +1,9 @@
 .page {
   display: grid;
   /* grid-template-columns: repeat(2, min-content); */
-  grid-template-columns: 43% 57%;
+  grid-template-columns: 46% 56%;
   /* grid-template-rows: 5% 55% 40%; */
-  grid-template-rows: 5% 39% 55%;
+  grid-template-rows: 7% 39% 54%;
   /* grid-template-rows:  repeat(3, min-content) ; */
   box-sizing: border-box;
   /* width: auto; */

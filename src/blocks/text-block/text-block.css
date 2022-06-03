@@ -1,6 +1,6 @@
 .text-block{
-  font-size: 32px;
-  line-height: 32px;
+  font-size: 19px;
+  line-height: 27px;
   letter-spacing: 0.055em;
   color: #000;
 
@@ -8,12 +8,43 @@
   grid-column: 1/2;
   max-width: 886px;
   width: auto;
-  padding-top: 91px;
-  padding-right: 68px;
-  padding-left: 16px;
+  padding-top: 11%;
+  padding-right: 6%;
+  padding-left: 6%;
   box-sizing: border-box;
   /* margin-top: 91px; */
   /* margin-left: 36px; */
   /* margin-right: 68px; */
   /* margin-bottom: 80px; */
+}
+
+@media screen and (max-height: 830px) {
+  .text-block {
+    font-size: 17px;
+    line-height: 26px;
+  }
+}
+@media screen and (max-height: 770px) {
+  .text-block {
+    font-size: 14px;
+    line-height: 23px;
+  }
+}
+@media screen and (max-height: 660px) {
+  .text-block {
+    font-size: 11px;
+    line-height: 20px;
+  }
+}
+@media screen and (max-height: 550px) {
+  .text-block {
+    font-size: 9px;
+    line-height: 15px;
+  }
+}
+@media screen and (max-height: 420px) {
+  .text-block {
+    font-size: 7px;
+    line-height: 13px;
+  }
 }

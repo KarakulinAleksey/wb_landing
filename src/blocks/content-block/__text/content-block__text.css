@@ -1,7 +1,23 @@
 .content-block__text {
-  font-size: 26px;
+  font-size: 13px;
   line-height: 133.84%;
 
   margin: 0;
-  margin-left: 5px;
+  margin-left: 1%;
+}
+
+@media screen and (max-height: 650px) {
+  .content-block__text {
+    font-size: 11px;
+  }
+}
+@media screen and (max-height: 550px) {
+  .content-block__text {
+    font-size: 9px;
+  }
+}
+@media screen and (max-height: 480px) {
+  .content-block__text {
+    font-size: 7px;
+  }
 }
