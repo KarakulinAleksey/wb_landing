@@ -4,4 +4,5 @@
     /* bottom: 0%; */
     width: 22.3%;
     height: 93.25%;
+    object-fit: contain;
 }

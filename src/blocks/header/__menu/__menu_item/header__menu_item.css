@@ -11,3 +11,29 @@
 .header__menu_item:last-of-type{
   margin-right: 0;
 }
+
+@media screen and (max-height: 790px) {
+  .header__menu_item {
+    font-size: 15px;
+  }
+}
+@media screen and (max-height: 710px) {
+  .header__menu_item {
+    font-size: 13px;
+  }
+}
+@media screen and (max-height: 650px) {
+  .header__menu_item {
+    font-size: 11px;
+  }
+}
+@media screen and (max-height: 600px) {
+  .header__menu_item {
+    font-size: 9px;
+  }
+}
+@media screen and (max-height: 550px) {
+  .header__menu_item {
+    font-size: 7px;
+  }
+}
