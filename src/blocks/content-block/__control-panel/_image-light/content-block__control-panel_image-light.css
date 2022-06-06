@@ -6,4 +6,5 @@
 
 .content-block__control-panel_image-light:hover {
   opacity: 0.6;
+  cursor: pointer;
 }

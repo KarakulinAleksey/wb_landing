@@ -5,4 +5,5 @@
 
 .content-block__control-panel_image-night:hover {
   opacity: 0.6;
+  cursor: pointer;
 }
